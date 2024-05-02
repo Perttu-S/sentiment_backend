@@ -1,2 +1,2 @@
 scikit-learn
-flask
+Flask==MAJOR.MINOR.PATCH
