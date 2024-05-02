@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 import pickle
+import sklearn
 
 # Load the model
 model = pickle.load(open('sentiment_analysis_model.pkl', 'rb'))
