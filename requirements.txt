@@ -1,2 +1,2 @@
 scikit-learn
-Flask=3.0.3
+Flask==3.0.3
