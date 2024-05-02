@@ -1,2 +1,2 @@
 scikit-learn
-Flask==MAJOR.MINOR.PATCH
+Flask=3.0.3
