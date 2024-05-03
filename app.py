@@ -6,6 +6,10 @@ model = pickle.load(open('sentiment_analysis_model.pkl', 'rb'))
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Sentiment Analysis API"
+
 @app.route('/predict', methods=['POST'])
 def sentiment_analysis():
     data = request.get_json()
